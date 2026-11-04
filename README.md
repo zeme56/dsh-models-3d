@@ -18,7 +18,7 @@
 点右上角「＋ 导入模型」，两种方式：
 
 1. **本机文件**：选一个 `.glb` / `.gltf`（≤ 60 MB）上传，落到 `assets/imported/`，立刻进入展厅。
-2. **Blender 工程**：填 `.blend` 的完整路径。宿主会探测本机 Blender（`DSH_BLENDER` / `BLENDER_PATH` 环境变量、`Blender Foundation` 安装目录、`PATH`），用 `lib/blender_export.py` 无头导出 GLB（删灯光、保留相机、应用修改器），再入库。转换通常 30–90 秒。
+2. **Blender 工程**：填 `.blend` 的完整路径。宿主会探测本机 Blender（`DSH_BLENDER` / `BLENDER_PATH` 环境变量、`Blender Foundation` 安装目录、`PATH`），用 `lib/blender_export.py` 无头导出 GLB（删灯光、保留相机、应用修改器），再入库。转换通常 30–90 秒。导出时会自动：只保留最轻的一档 LOD、把总面数压到约 35 万、把 4K 贴图缩到 1K，避免动辄几百 MB 的 GLB。转换结果超过 90 MB 会直接拒绝并提示减面。
 
 导入的模型在列表里带「本机导入」标记，信息卡上有「✕ 删除这个模型」。清单写在 `assets/imported/index.json`。
 

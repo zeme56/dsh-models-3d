@@ -6,3 +6,5 @@ Thumbs.db
 *.tmp
 *.blend1
 tools/out/
+assets/imported/*
+!assets/imported/.gitkeep
