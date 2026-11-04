@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "version": "a50c24ea77",
+  "generatedAt": "2026-11-03T06:19:20.679Z",
+  "credit": {
+    "zh": "四座地标均为程序化建模，glTF 2.0 实时渲染",
+    "en": "All four landmarks are procedurally modelled and rendered live from glTF 2.0"
+  },
+  "models": [
+    {
+      "id": "eiffel-tower",
+      "accent": "#d9a94a",
+      "name": {
+        "zh": "埃菲尔铁塔",
+        "en": "Eiffel Tower"
+      },
+      "place": {
+        "zh": "巴黎 · 法国",
+        "en": "Paris · France"
+      },
+      "year": "1889",
+      "scale": {
+        "zh": "330 m",
+        "en": "330 m"
+      },
+      "blurb": {
+        "zh": "为 1889 年巴黎世博会而建，1.8 万余个铁构件铆成 300 米高的镂空格构。它曾被巴黎文艺界联名反对，如今却是这座城市最无可替代的剪影。",
+        "en": "Built for the 1889 Exposition Universelle, its 18,000 iron parts rivet into a 300-metre open lattice. Parisian artists once petitioned against it; today it is the city's most irreplaceable silhouette."
+      },
+      "model": "models/eiffel-tower.glb",
+      "thumb": "thumbs/eiffel-tower.png",
+      "bytes": 1541208,
+      "triangles": 32276,
+      "materials": 13,
+      "nodes": 3
+    },
+    {
+      "id": "great-wall",
+      "accent": "#c08a4e",
+      "name": {
+        "zh": "长城",
+        "en": "The Great Wall"
+      },
+      "place": {
+        "zh": "北京 · 中国",
+        "en": "Beijing · China"
+      },
+      "year": "明 · 1368–1644",
+      "scale": {
+        "zh": "全长 21,196 km",
+        "en": "21,196 km total"
+      },
+      "blurb": {
+        "zh": "不是一堵墙，而是一整套横跨山脊的防御体系：墙体顺着地势起伏，敌楼与烽燧在隘口相望。今天看到的大部分砖石长城，是明代陆续修筑的。",
+        "en": "Not one wall but a defence system strung across ridgelines: rammed walls follow the terrain while watchtowers and beacon fires answer each other at the passes. Most brick-and-stone sections visible today were built under the Ming."
+      },
+      "model": "models/great-wall.glb",
+      "thumb": null,
+      "bytes": 3689940,
+      "triangles": 97700,
+      "materials": 18,
+      "nodes": 9
+    },
+    {
+      "id": "forbidden-city",
+      "accent": "#c2453c",
+      "name": {
+        "zh": "紫禁城",
+        "en": "The Forbidden City"
+      },
+      "place": {
+        "zh": "北京 · 中国",
+        "en": "Beijing · China"
+      },
+      "year": "1420",
+      "scale": {
+        "zh": "占地 72 万 m²",
+        "en": "720,000 m²"
+      },
+      "blurb": {
+        "zh": "明清两代的皇权中心，980 座建筑沿一条中轴线层层展开。黄琉璃瓦压着朱红宫墙，太和殿的台基把整座城市抬高一截。",
+        "en": "The imperial seat of the Ming and Qing for five centuries: 980 buildings unfolding along a single axis, yellow glazed tiles over vermilion walls, the Hall of Supreme Harmony lifted on its own terrace."
+      },
+      "model": "models/forbidden-city.glb",
+      "thumb": "thumbs/forbidden-city.png",
+      "bytes": 2237816,
+      "triangles": 41004,
+      "materials": 18,
+      "nodes": 9
+    },
+    {
+      "id": "taj-mahal",
+      "accent": "#7fb7ad",
+      "name": {
+        "zh": "泰姬陵",
+        "en": "Taj Mahal"
+      },
+      "place": {
+        "zh": "阿格拉 · 印度",
+        "en": "Agra · India"
+      },
+      "year": "1653",
+      "scale": {
+        "zh": "高 73 m",
+        "en": "73 m tall"
+      },
+      "blurb": {
+        "zh": "沙贾汗为亡妻穆塔兹·马哈尔所建的白色大理石陵墓。四座宣礼塔微微向外倾斜，据说是为了在地震时倒向远离主墓的方向。",
+        "en": "Shah Jahan's white-marble mausoleum for Mumtaz Mahal. The four minarets lean slightly outward — so the story goes, so that an earthquake would topple them away from the tomb."
+      },
+      "model": "models/taj-mahal.glb",
+      "thumb": "thumbs/taj-mahal.png",
+      "bytes": 1433868,
+      "triangles": 36170,
+      "materials": 18,
+      "nodes": 7
+    }
+  ]
+}

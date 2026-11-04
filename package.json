@@ -1,0 +1,54 @@
+{
+  "name": "dsh-models-3d",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "模型 3D —— 在 DeepSeek Harness 左侧边栏打开可交互的 3D 展厅：埃菲尔铁塔、中国长城、紫禁城、泰姬陵，并可导入本机的 GLB 或 Blender 工程。",
+  "icon": "./icon.svg",
+  "keywords": [
+    "3d",
+    "blender",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "glb",
+    "models",
+    "three",
+    "three.js"
+  ],
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "react": "^18.3.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "license": "MIT"
+}

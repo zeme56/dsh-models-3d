@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="World Landmarks 3D">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c2740"/>
+      <stop offset="0.55" stop-color="#101827"/>
+      <stop offset="1" stop-color="#0a0f19"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#f4dfae"/>
+      <stop offset="0.45" stop-color="#dcb46a"/>
+      <stop offset="1" stop-color="#a87a30"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#dcb46a" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#dcb46a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floor" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dcb46a" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#dcb46a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="58" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="253" height="253" rx="56.5" fill="none" stroke="#e8c987" stroke-opacity="0.16" stroke-width="3"/>
+  <circle cx="128" cy="124" r="104" fill="url(#glow)"/>
+
+  <circle cx="128" cy="124" r="84" fill="none" stroke="#e8c987" stroke-opacity="0.42" stroke-width="3"/>
+  <circle cx="128" cy="124" r="84" fill="none" stroke="#f4dfae" stroke-opacity="0.18" stroke-width="9" stroke-dasharray="3 26" stroke-linecap="round"/>
+
+  <ellipse cx="128" cy="207" rx="52" ry="7" fill="url(#floor)"/>
+
+  <g fill="url(#gold)">
+    <path d="M126.7 22.4h2.6l0.6 3.4h-3.8z"/>
+    <path d="M125.4 27.6h5.2l0.9 6.2h-7z"/>
+    <path d="M123.9 35.6h8.2l1.1 7.2h-10.4z"/>
+    <path d="M122.1 44.7h11.8l1.3 8.1h-14.4z"/>
+    <path d="M120 54.8h15.9l1.5 9.1h-18.9z"/>
+    <path d="M117.6 65.9h20.6l1.7 10.2h-24z"/>
+    <path d="M114.8 78.1h26.2l2 11.4h-30.2z"/>
+    <path d="M111.7 91.5h32.4l2.2 12.7h-36.8z"/>
+    <path d="M108.2 106.2h39.4l2.5 14.1h-44.4z"/>
+    <path d="M104.3 122.3h47.2l2.8 15.7h-52.8z"/>
+    <path d="M100 140h55.8l3.1 17.4h-62z"/>
+    <path d="M95.2 159.4h65.4l3.5 19.3h-72.4z"/>
+    <path d="M89.9 180.7h76l3.9 21.4H86z"/>
+    <path d="M84 204.1h88l4.3 23.6H79.7z"/>
+  </g>
+
+  <path d="M128 54.8v172.9" stroke="#101827" stroke-opacity="0.28" stroke-width="1.6"/>
+  <path d="M97 204.1c0-26 12-52 27-72M159 204.1c0-26-12-52-27-72" fill="none" stroke="#101827" stroke-opacity="0.22" stroke-width="2"/>
+
+  <g fill="#f6e7c4">
+    <circle cx="196" cy="66" r="2.1" opacity="0.85"/>
+    <circle cx="63" cy="150" r="1.5" opacity="0.6"/>
+    <path d="M58 60l1.5 4.6 4.6 1.5-4.6 1.5-1.5 4.6-1.5-4.6-4.6-1.5 4.6-1.5z" opacity="0.75"/>
+  </g>
+</svg>
